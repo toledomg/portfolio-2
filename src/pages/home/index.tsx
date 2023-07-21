@@ -58,8 +58,8 @@ export const Home = (): JSX.Element => {
               projetos
             </Text>
             <Text type="body1" color="grey2">
-              Descubra nesse portfolio, criado especialmente para poderem ver
-              alguns de meus projetos e tecnologias.
+              Descubra nesse portfolio, alguns de meus projetos e tecnologias
+              das quais tenho domínio.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
