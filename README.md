@@ -35,8 +35,17 @@ _"Adote um estilo e escolha o seu caminho. Seja você mesmo antes de tudo."_
 
 - 📫 Como chegar até mim **toledomg@yahoo.com.br**
 
-<div  align="center" style="display:flex" > 
-<h3 align="center">Linguagens e ferramentas:</h3>
+- Acesse meu Portfolio.
+
+  [![Preview](https://img.shields.io/badge/Preview-000?style=for-the-badge&logo=github&logoColor=7520FF)](https://portfolio.luchost.com/)
+  [![GitHub Page](https://img.shields.io/badge/</toledoDev>-7520FF?style=for-the-badge)](https://portfolio.luchost.com/)
+
+<div  align="center" style="display:flex" >
+
+  <h3 align="center" style="display:flex">Linguagens e ferramentas:</h3>
+
+  <span align="center" style="display:flex">
+  
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
     <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
@@ -145,7 +154,6 @@ _"Adote um estilo e escolha o seu caminho. Seja você mesmo antes de tudo."_
   </a>
    </span>
 
-
    <span>
      <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
     <img
@@ -156,6 +164,7 @@ _"Adote um estilo e escolha o seu caminho. Seja você mesmo antes de tudo."_
     />
   </a>
    </span>
+  </span>
    
 </div>
 <div  align="center"> 
