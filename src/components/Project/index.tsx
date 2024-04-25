@@ -11,6 +11,7 @@ import { Text } from '@/styles/Text';
 import { useEffect, useState } from 'react';
 import { FaGithub, FaShare } from 'react-icons/fa';
 import { userData } from '@/utils/userData';
+import ProjectSites from '../ProjectLinkSite';
 
 interface ReposType {
   id: number;
@@ -20,6 +21,20 @@ interface ReposType {
   html_url: string;
   homepage: string;
 }
+
+const projectSites = {
+  'O Sorveteiro': {
+    url: 'https://sorveteiro.app/',
+    language: 'TypeScript',
+    description: 'Um projeto incrível para gerenciar pedidos de sorveteiros.',
+  },
+  'Banka Bank': {
+    url: 'https://bankabank.com.br/',
+    language: 'TypeScript',
+    description: 'Uma plataforma financeira inovadora.',
+  },
+  // Adicione mais projetos conforme necessário
+};
 
 export const Project = (): JSX.Element => {
   const [repositories, setRepositories] = useState<ReposType[]>([]);
@@ -42,6 +57,7 @@ export const Project = (): JSX.Element => {
 
   return (
     <>
+      <ProjectSites projectSites={projectSites} />
       {repositories &&
         repositories?.map?.((repository) => (
           <ProjectWrapper key={repository.id}>
