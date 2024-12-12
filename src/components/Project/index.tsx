@@ -20,6 +20,8 @@ interface ReposType {
   description: string;
   html_url: string;
   homepage: string;
+  archived: string;
+  fork: string;
 }
 
 const projectSites = {
@@ -33,7 +35,6 @@ const projectSites = {
     language: 'TypeScript',
     description: 'Uma plataforma financeira inovadora.',
   },
-  // Adicione mais projetos conforme necessário
 };
 
 export const Project = (): JSX.Element => {
@@ -47,9 +48,14 @@ export const Project = (): JSX.Element => {
 
       const json = await data.json();
 
-      setRepositories(json);
+      // Filtra repositórios não arquivados e que não são forks
+      const activeRepositories = json.filter(
+        (repo: ReposType) => !repo.archived && !repo.fork
+      );
 
-      return json;
+      setRepositories(activeRepositories);
+
+      return activeRepositories;
     };
 
     fetchData();
