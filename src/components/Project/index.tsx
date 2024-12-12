@@ -30,8 +30,8 @@ const projectSites = {
     language: 'TypeScript',
     description: 'Um projeto incrível para gerenciar pedidos de sorveteiros.',
   },
-  'Banka Bank': {
-    url: 'https://bankabank.com.br/',
+  'Bank Bank': {
+    url: 'https://bank-bank.vercel.app/',
     language: 'TypeScript',
     description: 'Uma plataforma financeira inovadora.',
   },
